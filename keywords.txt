@@ -9,14 +9,25 @@
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-DEBUG			KEYWORD2
-INFO			KEYWORD2
-WARN			KEYWORD2
-ERROR			KEYWORD2
-setupLogging	KEYWORD2
-logging_putchar	KEYWORD2
+setupLogging		KEYWORD2
+logging_putchar		KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
+DEBUG				LITERAL1
+INFO				LITERAL1
+WARN				LITERAL1
+ERROR				LITERAL1
 
+LOG_THRESHOLD		LITERAL1
+DEBUG_LEVEL			LITERAL1
+INFO_LEVEL			LITERAL1
+WARN_LEVEL			LITERAL1
+ERROR_LEVEL			LITERAL1
+NO_LOGS				LITERAL1
+
+PUSH_LOG_THRESHOLD	LITERAL1
+POP_LOG_THRESHOLD	LITERAL1
+
+USE_FLASH_STRINGS	LITERAL1
