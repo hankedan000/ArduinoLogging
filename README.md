@@ -9,7 +9,7 @@ Logging library for Arduino
 void setup() {
   setupLogging(115200);
   
-  DEBUG("this is a debug log");
+  DEBUG("this is a DEBUG log");
   INFO("this is an INFO log");
   WARN("this is a WARN log");
   ERROR("this is an ERROR log");
