@@ -1,8 +1,3 @@
-# ArduinoLogging
-Logging library for Arduino
-
-# Example
-```c++
 #define LOG_THRESHOLD DEBUG_LEVEL// override library's default log level of INFO
 #include <logging.h>
 
@@ -20,4 +15,3 @@ void loop() {
   INFO("count = %d", count++);
   delay(1000);
 }
-```

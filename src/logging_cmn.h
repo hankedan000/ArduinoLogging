@@ -7,7 +7,9 @@
 #define ERROR_LEVEL 40
 #define NO_LOGS     60
 
+#ifndef LOG_THRESHOLD
 #define LOG_THRESHOLD INFO_LEVEL
+#endif
 #define USE_FLASH_STRINGS
 
 #define PRAGMA(x) _Pragma(#x)
