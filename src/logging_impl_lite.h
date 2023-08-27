@@ -1,9 +1,7 @@
 #ifndef LOGGING_H_
 #define LOGGING_H_
 
-#include <avr/pgmspace.h>
-#include "logging_cmn.h"
-#include <stdio.h>
+#include "logging.h"
 
 #define SERIAL_8N1 0x06
 

@@ -9,7 +9,7 @@ Logging library for Arduino
 # Example Code
 ```c++
 #define LOG_THRESHOLD DEBUG_LEVEL// override library's default log level of INFO
-#include <logging.h>
+#include <logging_impl.h>
 
 void setup() {
   setupLogging(115200);
